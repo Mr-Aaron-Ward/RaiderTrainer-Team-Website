@@ -91,7 +91,17 @@
     <P>Email: schmidt.213@wright.edu </P>
     
     <h2>Project Requirements</h2>
-    <p></p>
+    <p>
+        <h3>Performance Requirements</h3>
+            The device using the application must be modern enough to run the application without it lagging excessively. The minimum specs are uncertain, but at least an I5 CPU is recommended as well as a decent integrated GPU or a separate, dedicated GPU to make sure that the application runs smoothly. In addition, the camera used for the application must have a capture rate of at least 30 fps to ensure that the user’s movements are being tracked properly.
+            
+        <h3>Safety Requirements</h3>
+            While using Raider Trainer, the user must inspect their environment and ensure that they are in an open area where they are not likely to bump into any objects or walls. They must also ensure that they can fully raise their arm without hitting any overhead objects. There are no other safety concerns that could arise while using the application as the user is under no risk while interacting with the user interface.
+
+        <h3>Security Requirements</h3>
+            The application is entirely self-contained, relying on no outside internet interaction. This ensures that there is no way an outside source could easily interact with the main codebase. Before using the Raider Trainer, the user must enter their password and username to ensure that user workout data is not compromised. These usernames and passwords are stored in a local database allowing only the dedicated admin to have access to the user accounts. The image-capturing from the camera is also only used in the application with no data being sent to an external source. As such, the self-contained infrastructure of the application is extremely secure.
+
+    </p>
 
     <h2>Weekly Reports</h2>
     <h3>Week 1</h3>
@@ -133,11 +143,17 @@
         Aaron worked on perfecting the pose tracker error handling in the mobile application. Aaron made it to where the workout will stop if the user does a certain number of incorrect reps and prompts them to restart the workout and focus more on their form or to lower the weight. Aaron also updated the workout history database and now it shows red for workouts that were stopped due to incorrect reps and green for workouts that were completed correctly. Alan worked on coding the overhead press movement and creating a timer that tracks how quick or slow the user is doing each rep. Alan also worked on the SRS document. Zander worked on the arm to check arm correctness of the user during each rep. Zander also worked on the SRS document. 
         Aaron will work on implementing the other arm into the workout. Aaron will also work on getting the other arm to track in the workout history database. Alan will continue to work on the code for the overhead press movement. Alan will also continue to work on the code to track the time between each rep. Zander will continue to work on the code for check the arm correctness during each rep. Zander will also work on the demonstration videos for each movement.  
     <p/>
-    
+
     <h3>Week 8</h3>
     <p>
         Aaron got the pose tracker to work tracking both arms. Aaron also got the database to track correct, intermediate and incorrect reps for both arms. Aaron also implemented the demonstration videos into the application for each movement. Alan got the timer to correctly track the duration of each rep and implemented it into the pose tracker. Alan also continued to work on the SRS. Zander created the demonstration videos for each movement and worked on correcting the video overlay. Zander also continued to work on the SRS.
         Aaron will continue to perfect the application. Alan will continue to work on the SRS. Zander will continue to work on correcting the video overlay and perfecting anything else. 
+    </p>
+
+    <h3>Week 9</h3>
+    <p>
+        Aaron added a legend to the workout history to inform the user if they had a good or bad or incomplete workout. Alan continued to work on the SRS. Zander continued to work on the overlay for the workout. 
+        Aaron will continue to perfect the tracking of the arm being too far inward or outward. Alan will continue working on the SRS. Zander will continue to work on perfecting the overlay for the workout. 
     </p>
 
 </main>
